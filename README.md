@@ -9,9 +9,13 @@ The dataset contains **high-resolution images** of bearings — some with **visi
 ## 📂 Project Structure
 
 ├── Yolo_to_Csv.py # Converts YOLOv8 annotation format (from Roboflow) to CSV for CNN usage
+
 ├── labels.csv # Output file from Yolo_to_Csv: contains filename and label columns
+
 ├── labels/ # Folder containing image filenames and their class labels (Normal or Defect)
+
 ├── Yolo_train.py # YOLOv8 training script for defect detection
+
 ├── CNN_Training.py # CNN training script from scratch for binary classification
 
 ---
